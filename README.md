@@ -1,7 +1,7 @@
 
 # Notes
 
-Simple demonstration on how to apply context API to global state. Data are not stored persistently hence will remove all added notes in page refresh; integration to localStorage API to store data will soon be added or you can make a PR to contribute 🙂.
+Simple demonstration on how to apply context API to global state. Data are not stored persistently hence will remove all added notes in page refresh; integration to localStorage API to store data will soon be added or you can make a PR so we can collaborate 🙂.
 ## Demo
 
 https://conote.netlify.app/
