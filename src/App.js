@@ -2,6 +2,7 @@ import { Switch, Route, BrowserRouter } from 'react-router-dom';
 import Home from './pages/Home';
 import Form from './pages/Form';
 import Note from './pages/Note';
+import PageNotFound from './pages/PageNotFound';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/add' component={Form} />
           <Route path='/note/:id' component={Note} />
+          <Route path="*" component={PageNotFound} />
         </Switch>
       </BrowserRouter>
     </div>
