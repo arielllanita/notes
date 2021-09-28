@@ -23,10 +23,8 @@ const Note = () => {
     <main>
       <div className="row">
         <div className="col-lg-1 col-md-2 col-2">
-          <Link to="/" className="text-decoration-none">
-            <button className="btn">
-              <i className="fa fa-chevron-left"></i>
-            </button>
+          <Link to="/" className="text-decoration-none text-dark float-left mr-3">
+            <svg style={{ width: '16px' }} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
           </Link>
         </div>
         <div className="col">

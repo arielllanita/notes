@@ -27,13 +27,11 @@ const Form = () => {
 
   return (
     <main>
-      <Link to="/" className="text-decoration-none float-left mr-3">
-        <button className="btn">
-          <i className="fa fa-chevron-left"></i>
-        </button>
+      <Link to="/" className="text-decoration-none text-dark float-left mr-4">
+        <svg style={{ width: '16px' }} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
       </Link>
       <h4>Add note</h4>
-      
+
       <form className="px-md-4 py-3" onSubmit={submitHandler}>
         <label htmlFor="title">Title</label>
         <div className="form-group">
