@@ -1,10 +1,10 @@
 
-# Notes
+# Reactive Note
 
-Simple demonstration on how to apply context API to global state. Data are not stored persistently hence will remove all added notes in page refresh; integration to localStorage API to store data will soon be added or you can make a PR so we can collaborate 🙂.
+Simple demonstration on how to apply context API to global state. Data are stored in browser's local storage so it will persist after page refresh. More features are coming soon 🙂.
 ## Demo
 
-https://conote.netlify.app/
+https://reactivenote.netlify.app
 
   
 ## Run Locally
@@ -30,7 +30,7 @@ Install dependencies
 Start the server
 
 ```bash
-  npm start
+  npm run start
 ```
 
   
