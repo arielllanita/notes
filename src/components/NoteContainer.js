@@ -5,7 +5,9 @@ import { Link } from 'react-router-dom';
 const NoteContainer = ({ title, content, id }) => {
   const noteContext = useContext(NotesContext);
   // Function responsible for removing a note
-  const remove = () => noteContext.removeNote(id);
+  const remove = () => {
+    noteContext.removeNote(id)
+  }
 
   return (
     <div className="shadow-sm py-4 px-3 rounded-lg mt-3 cursor-pointer">

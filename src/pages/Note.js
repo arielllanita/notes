@@ -17,7 +17,7 @@ const Note = () => {
         setNote(verifiedID[0]);
       }
     }
-  }, [id, noteContext.notes])
+  }, [id, noteContext])
 
   return showNote ? (
     <main>
@@ -36,8 +36,8 @@ const Note = () => {
       <p className="mt-3 text-justify">{note.content}</p>
     </main>
   ) : (
-    <div>
-      <h5>ID {id} does not exist.</h5>
+    <div className="text-center">
+      <h5>Note does not exist.</h5>
       <Link to="/">Home</Link>
     </div>
   )

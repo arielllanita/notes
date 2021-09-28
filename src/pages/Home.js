@@ -20,7 +20,7 @@ const Home = () => {
       </div>
 
       {noteContext.notes.map((note) => (
-        <NoteContainer title={note.title} content={note.content} id={note.id} key={note.id} />
+        <NoteContainer {...note}  key={note.id} />
       ))}
     </main>
   )
